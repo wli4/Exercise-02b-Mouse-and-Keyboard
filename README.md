@@ -12,7 +12,7 @@ Open Godot. In the Project Manager, tap the "Import" button. Tap "Browse" and na
 
 You will now see a simple scene, containing a parent Node2D and a Node2D (called Player) which contains a Sprite. Player has a script attached to it (Player.gd) which doesn't do too much for now; it makes sure the player stays on the screen (the `clamp` statements) and calls the get_input function to see how the Player should be accelerated (0 for now).
 
-The first step, however, is to add inputs to the Input Map. In the Project menu, choosed Project Settings, and select the Input Map tab. Near the top of the window is an "Action:" text box with an "Add" button next to it. Add the following inputs to the map (*case is important, so make sure these are all lower case*):
+The first step, however, is to add inputs to the Input Map. In the Project menu, choose Project Settings, and select the Input Map tab. Near the top of the window is an "Action:" text box with an "Add" button next to it. Add the following inputs to the map (*case is important, so make sure these are all lower case*):
 
  * up
  * down
@@ -58,9 +58,9 @@ Be careful to ensure that the resulting code is inserted with tabs instead of sp
 
 This will accelerate the Player in the direction it is facing by pushing the w key. It can be accelerated backwards or left or right using the other WASD keys.
 
-Test it and make sure this is working correctly. The get_input function is probably a good snippet ot add to your gists.
+Test it and make sure this is working correctly. The get_input function is probably a good snippet to add to your gists.
 
-Quit Godot. In GitHub desktop, you should now see the updated files listed in the left panel. In the bottom of that panel, type a Summary message (something like "Completes my first Godot game") and press the "Commit to master" button. On the right side of the top, black panel, you should see a button labeled "Push origin". Press that now.
+Quit Godot. In GitHub desktop, you should now see the updated files listed in the left panel. In the bottom of that panel, type a Summary message (something like "Completes the mouse and keyboard exercise") and press the "Commit to master" button. On the right side of the top, black panel, you should see a button labeled "Push origin". Press that now.
 
 If you return to and refresh your GitHub repository page, you should now see your updated files with the time when they were changed.
 
